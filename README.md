@@ -1,2 +1,4 @@
 # kaggle-titanic
-Work on titanic problem of Kaggle
+My work on titanic problem of Kaggle
+
+Train and test files present in `data/` obtained from Kaggle
