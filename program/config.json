@@ -1,0 +1,62 @@
+[
+  {
+    "name": "PassengerId",
+    "type": "input",
+    "encode": "ignore"
+  },
+  {
+    "name": "Survived",
+    "type": "target",
+    "encode": "one_hot"
+  },
+  {
+    "name": "Pclass",
+    "type": "input",
+    "encode": "one_hot"
+  },
+  {
+    "name": "Name",
+    "type": "input",
+    "encode": "ignore"
+  },
+  {
+    "name": "Sex",
+    "type": "input",
+    "encode": "one_hot"
+  },
+  {
+    "name": "SibSp",
+    "type": "input",
+    "encode": "one_hot"
+  },
+  {
+    "name": "Parch",
+    "type": "input",
+    "encode": "one_hot"
+  },
+  {
+    "name": "Ticket",
+    "type": "input",
+    "encode": "ignore"
+  },
+  {
+    "name": "Cabin",
+    "type": "input",
+    "encode": "one_hot"
+  },
+  {
+    "name": "Embarked",
+    "type": "input",
+    "encode": "one_hot"
+  },
+  {
+    "name": "Age",
+    "type": "input",
+    "encode": "continuous"
+  },
+  {
+    "name": "Fare",
+    "type": "input",
+    "encode": "continuous"
+  }
+]
